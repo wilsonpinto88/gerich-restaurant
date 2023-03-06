@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { Fragment } from "react";
 
-import './FooterOverlay.css';
+import "./FooterOverlay.css";
 
 const FooterOverlay = () => (
-  <div>
-    FooterOverlay
-  </div>
+  <Fragment>
+    <div className="app__footerOverlay">
+      <div className="app__footerOverlay-black" />
+      <div className="app__footerOverlay-img app__bg" />
+    </div>
+  </Fragment>
 );
 
 export default FooterOverlay;
